@@ -3,4 +3,4 @@
 source "https://rubygems.org"
 
 # gem "rails"
-gem 'minima'
+gem 'jekyll-theme-cayman'
