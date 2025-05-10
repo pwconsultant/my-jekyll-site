@@ -1,0 +1,47 @@
+# See https://github.com/github/gitignore/blob/main/Ruby.gitignore
+
+*.gem
+*.rbc
+/.config
+/coverage/
+/InstalledFiles
+/pkg/
+/spec/reports/
+/test/tmp/
+/test/version_tmp/
+/tmp/
+
+# Ignore all logfiles and tempfiles.
+/log/*
+!/log/.keep
+/tmp
+!/tmp/.keep
+
+# Ignore Byebug command history file.
+.byebug_history
+
+# Ignore bundler config.
+/.bundle/
+/vendor/bundle
+
+# Ignore the default SQLite database.
+/db/*.sqlite3
+/db/*.sqlite3-journal
+
+# Ignore all files in the .sass-cache directory.
+/.sass-cache/
+
+# Ignore dotenv environment variable files.
+.env
+.env.*
+
+# Ignore node_modules for JavaScript dependencies.
+/node_modules/
+
+# Ignore Yarn integrity file.
+/yarn-integrity
+
+# Ignore Mac and Linux file system files.
+*.swp
+*.swo
+.DS_Store
